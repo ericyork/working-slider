@@ -4,20 +4,20 @@ Full instructions and configurations can be found [here](https://github.com/stev
 
 
 ## Step 1
-Copy **both** the `/pix/` and `/bxslider/` directories into your document root.
+Copy **both** the `/pix` and `/bxslider` directories into your document root.
 
 
 ## Step 2
-Copy the following style sheet link into your head tag. Please note: the `href=` path must match the path to the file exactly!
+Copy the following style sheet link into the head of your HTML file. Please note: the `href=` path must match the path to the file exactly.
 ``` html
   <link rel="stylesheet" type="text/css" href="bxslider/bxslider.css" />
 ```
 
 
 ## Step 3
-Copy the following javascript links into your head tag. Please note: the `src=` paths must match the names you've given the files in your directory!
+Copy the following javascript links into the head of your HTML file. Please note: the `src=` paths must match the names you've given the files in your directory.
 
-``` css
+``` html
   <!-- Loads jQuery library via CDN -->
   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   <!-- Calls bxSlider Javascript file -->
