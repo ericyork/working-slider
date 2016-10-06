@@ -1,6 +1,6 @@
 # README
 This files contains instructions for how to install the bxslider.
-Full instructions and configurations can be found [here](https://github.com/stevenwanderski/bxslider-4)
+Full instructions and configurations can be found at https://github.com/stevenwanderski/bxslider-4
 
 
 ## Step 1
