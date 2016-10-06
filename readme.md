@@ -4,18 +4,18 @@ Full instructions and configurations can be found [here](https://github.com/stev
 
 
 ## Step 1
-Copy **both** the /pix/ and /bxslider/ directories into your document root.
+Copy **both** the `/pix/` and `/bxslider/` directories into your document root.
 
 
 ## Step 2
-Copy the following style sheet link into your head tag.
+Copy the following style sheet link into your head tag. Please note: the `href=` path must match the path to the file exactly!
 ``` html
   <link rel="stylesheet" type="text/css" href="bxslider/bxslider.css" />
 ```
 
 
 ## Step 3
-Copy the following javascript links into your head tag.
+Copy the following javascript links into your head tag. Please note: the `src=` paths must match the names you've given the files in your directory!
 
 ``` css
   <!-- Loads jQuery library via CDN -->
@@ -28,7 +28,7 @@ Copy the following javascript links into your head tag.
 
 
 ## Step 4
-Copy the following code into your main style sheet.
+Copy the following CSS code into your main style sheet.
 
 ``` css
   ul.bxslider {/*-- corrects image position --*/
@@ -43,13 +43,13 @@ Add the following markup to your HTML.
 
 ``` html
   <ul class="bxslider">
-    <li><img src="pix/mtn.png" title="Mt. Katahdin from the south, at Ripogenus Dam" alt="mountain" /></li>
-    <li><img src="pix/river.png" title="East Branch of the Penobscot River" alt="river" /></li>
-    <li><img src="pix/gorge.png" title="Ripogenus Gorge from above" alt="gorge" /> </li>
-    <li><img src="pix/pine.png" title="Pine tree hollow" alt="pine" /></li>
+    <li><img src="pix/mtn.png" title="Your image caption here." alt="mountain" /></li>
+    <li><img src="pix/river.png" title="Your image caption here." alt="river" /></li>
+    <li><img src="pix/gorge.png" title="Your image caption here." alt="gorge" /> </li>
+    <li><img src="pix/pine.png" title="Your image caption here." alt="pine" /></li>
   </ul>
 ```
 
 
 ## That's it!
-You're done.
+You're done. Load the index.html file in a browser to preview.
