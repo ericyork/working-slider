@@ -9,7 +9,9 @@ Copy **both** the /pix/ and /bxslider/ directories into your document root.
 
 ## Step 2
 Copy the following style sheet link into your head tag.
+``` html
   <link rel="stylesheet" type="text/css" href="bxslider/bxslider.css" />
+```
 
 
 ## Step 3
