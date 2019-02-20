@@ -4,6 +4,5 @@ body {/*-- adds space around the slider --*/
 }
 /*-- bxslider corrections --*/
 ul.bxslider {
-	left: -40px;
 	top: -15px;
 }

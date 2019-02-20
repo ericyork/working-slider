@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	$('.bxslider').bxSlider({
-	  mode: 'fade',
+	  mode: 'horizontal',
 	  captions: true,
-	  auto: false,
+	  auto: true,
 	  autoControls: false,
-	  pause: 5000
+	  pause: 1000
 	});
 });

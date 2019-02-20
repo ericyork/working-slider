@@ -8,14 +8,14 @@ Copy **both** the `/pix` and `/bxslider` directories into your document root.
 
 
 ## Step 2
-Copy the following style sheet link into the head of your HTML file. Please note: the `href=` path must match the path to the file exactly.
+Copy the following style sheet link into the head of your HTML file. Please note: the `href=` path must match the path to the file exactly. This link should go **before** your personal stylesheet link.
 ``` html
   <link rel="stylesheet" type="text/css" href="bxslider/bxslider.css" />
 ```
 
 
 ## Step 3
-Copy the following javascript links into the head of your HTML file. Please note: the `src=` paths must match the names you've given the files in your directory.
+Copy the following javascript links into the head of your HTML file. Please note: the `src=` paths must match the names you've given the files in your directory. This link should go **after** your personal stylesheet link.
 
 ``` html
   <!-- Loads jQuery library via CDN -->
